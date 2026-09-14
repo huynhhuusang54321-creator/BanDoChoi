@@ -1,0 +1,14 @@
+# WordPress cache
+wp-content/cache/
+wp-content/upgrade/
+wp-content/debug.log
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# System files
+.DS_Store
+Thumbs.db

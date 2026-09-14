@@ -1,0 +1,307 @@
+# <!=Copyright (C) 2021-2026 Catch Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Kiddiemart\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2026-06-23 23:05+0545\n"
+"PO-Revision-Date: 2026-09-14 06:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: Tiếng Việt\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Version: 2.8.8; wp-7.0.3; php-8.2.12"
+
+#: inc/about.php:19 patterns/footer-three-columns.php:22
+msgid "Kiddiemart"
+msgstr ""
+
+#: inc/about.php:20
+msgid ""
+"Get your hands on the WordPress Full Site Editing features. Start building "
+"your website with advanced block patterns and custom blocks! Get additional "
+"35+ Pre-Designed Block Patterns, 28 FSE Templates, and 13 Template Parts  "
+"that are highly customizable and fully responsive."
+msgstr ""
+
+#: inc/about.php:22
+msgid "Get Kiddiemart"
+msgstr ""
+
+#: inc/about.php:24 inc/about.php:96
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:49 inc/block-patterns.php:18
+msgid "Kiddiemart Lite"
+msgstr ""
+
+#: inc/about.php:68
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:76
+msgid "Getting Started with Kiddiemart Lite!"
+msgstr ""
+
+#: inc/about.php:77
+msgid ""
+"Awesome! Kiddiemart Lite has been installed and activated successfully. Now, "
+"you can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in this "
+"astounding theme."
+msgstr ""
+"Tuyệt vời! kidtoys đã được cài đặt và kích hoạt thành công. Bây giờ, bạn có "
+"thể bắt đầu xây dựng trang web mơ ước của mình với nhiều mẫu khối, mẫu và "
+"phần mẫu tùy biến cao có sẵn trong chủ đề tuyệt vời này."
+
+#: inc/about.php:78
+msgid "Theme instructions"
+msgstr ""
+
+#: inc/about.php:84
+msgid "More Features with Kiddiemart Theme"
+msgstr ""
+
+#: inc/about.php:85
+msgid ""
+"To get more beautiful block patterns and templates, we recommend you upgrade "
+"to Kiddiemart. With the premium theme installed, get more options, blocks, "
+"block patterns, templates and template parts."
+msgstr ""
+
+#: inc/about.php:86
+msgid "Buy Kiddiemart"
+msgstr "Mua KIDTOYS"
+
+#: inc/about.php:95
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:97
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:98
+msgid "FSE FAQs"
+msgstr ""
+
+#: inc/about.php:99
+msgid "Change log"
+msgstr "Nhật ký thay đổi"
+
+#: inc/about.php:100
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:107
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:108
+msgid ""
+"Loved Kiddiemart Lite? Feel free to leave your feedback. Your opinion helps "
+"us reach more audiences!"
+msgstr ""
+
+#: inc/about.php:109
+msgid "Review"
+msgstr ""
+
+#: inc/block-patterns.php:19
+msgid "Pages"
+msgstr ""
+
+#: inc/block-styles.php:26
+msgid "No Padding"
+msgstr ""
+
+#: inc/block-styles.php:35
+msgid "Gap Zero"
+msgstr ""
+
+#: inc/block-styles.php:44 inc/block-styles.php:62 inc/block-styles.php:71
+#: inc/block-styles.php:80 inc/block-styles.php:89 inc/block-styles.php:99
+#: inc/block-styles.php:109 inc/block-styles.php:118
+msgid "Theme Style"
+msgstr ""
+
+#: inc/block-styles.php:53
+msgid "Plain"
+msgstr ""
+
+#: inc/icon-function.php:41
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/icon-function.php:46
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: patterns/404-header.php:23
+msgid "404 Nothing Found"
+msgstr ""
+
+#: patterns/404-header.php:26
+msgid "Oops! That page can't be found"
+msgstr ""
+
+#: patterns/best-seller-category.php:15
+msgid "Best Seller Categories"
+msgstr "Danh mục sản phẩm bán chạy nhất"
+
+#: patterns/blog-header.php:23
+msgid "Recent From Blog"
+msgstr ""
+
+#: patterns/featured-content.php:14
+msgid "Featured Contents"
+msgstr "Nội dung nổi bật"
+
+#: patterns/featured-content.php:17
+msgid ""
+"Modern Furniture from Famous Manufacturers and Designers Offering the Finest "
+"Furnishings for Every Room of Your Home or Office"
+msgstr ""
+
+#: patterns/footer-three-columns.php:25
+msgid "+123 456 7890"
+msgstr "+84 767980588"
+
+#: patterns/footer-three-columns.php:28
+msgid "3465 Bronco Kiddiemart LLC"
+msgstr "Cái Răng Cần Thơ"
+
+#: patterns/footer-three-columns.php:31
+msgid "California 56476"
+msgstr ""
+
+#: patterns/footer-three-columns.php:51 patterns/sidebar.php:22
+msgid "About"
+msgstr ""
+
+#: patterns/header-media-with-patterns.php:22
+msgid "A Fun Kids Play Everyday"
+msgstr "Một trò chơi vui vẻ dành cho trẻ em hàng ngày"
+
+#: patterns/header-media-with-patterns.php:27
+msgid ""
+"In publishing and graphic design, It is a place use\n"
+"common form of a document."
+msgstr ""
+
+#: patterns/header-media-with-patterns.php:36
+msgid "Shop Now"
+msgstr "Mua ngay"
+
+#: patterns/hero-content.php:24
+msgid "We Help To Provide All "
+msgstr ""
+
+#: patterns/hero-content.php:24
+msgid " For Kids"
+msgstr "Dành cho trẻ em"
+
+#: patterns/hero-content.php:32
+msgid ""
+"Fun, educational activities for every occasion with premium\n"
+"\t\t\t\t\t\ttoys and snacks. Learn more about our finest services! "
+msgstr ""
+
+#: patterns/hero-content.php:41
+msgid "Discover Now"
+msgstr "Khám phá ngay"
+
+#: patterns/hidden-404.php:10
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/popular-products.php:14
+msgid "Weekly Popular Products"
+msgstr ""
+
+#: patterns/secure-transactions.php:12
+msgid "Trusted & Secure Payments"
+msgstr ""
+
+#: patterns/shop-header.php:24
+msgid "The Shop"
+msgstr ""
+
+#: patterns/shop-header.php:28
+msgid ""
+"Discover a joyful collection of toys, stylish clothes, and everyday "
+"essentials designed to keep your little ones happy, comfortable, and full of "
+"fun."
+msgstr ""
+"Khám phá bộ sưu tập đồ chơi vui nhộn, quần áo thời trang và những vật dụng "
+"thiết yếu hàng ngày được thiết kế để giữ cho bé yêu của bạn vui vẻ, thoải "
+"mái và tràn đầy niềm vui."
+
+#: patterns/sidebar-products.php:32 patterns/sidebar.php:35
+msgid "Categories"
+msgstr "Thể Loại"
+
+#: patterns/sidebar-products.php:45
+msgid "Filter by price"
+msgstr "Lọc theo giá"
+
+#: patterns/sidebar-products.php:62
+msgid "Filter by size"
+msgstr ""
+
+#: patterns/sidebar-products.php:80
+msgid "Filter by Color"
+msgstr ""
+
+#: patterns/sidebar.php:14
+msgid "Search"
+msgstr ""
+
+#: patterns/sidebar.php:28
+msgid ""
+"Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas odio "
+"lacus, dignissim sollicitudin finibus commodo, rhoncus et ante."
+msgstr ""
+
+#: patterns/sidebar.php:43
+msgid "Recent Post"
+msgstr ""
+
+#: patterns/sidebar.php:51
+msgid "Tags"
+msgstr ""
+
+#: patterns/testimonials.php:14
+msgid "Testimonials"
+msgstr ""
+
+#: patterns/testimonials.php:29 patterns/testimonials.php:71
+msgid "Excellent Work"
+msgstr ""
+
+#: patterns/testimonials.php:32 patterns/testimonials.php:74
+msgid ""
+"These guys are awesome! Each time I needed their help. their response was "
+"quick and very helpful. Also, the theme is very flexible. Five stars from me "
+"for everything! I truly recommend this theme."
+msgstr ""
+
+#: patterns/testimonials.php:51 patterns/testimonials.php:93
+msgid "Sophia Johns"
+msgstr ""
+
+#: patterns/testimonials.php:54 patterns/testimonials.php:97
+msgid "Catch Themes User"
+msgstr "Người dùng Chủ đề Bắt bắt"

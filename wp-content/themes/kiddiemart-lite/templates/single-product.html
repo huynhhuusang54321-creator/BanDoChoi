@@ -1,0 +1,191 @@
+<!-- wp:template-part {"slug":"header-default" ,"tagName":"header"} /-->
+<!-- wp:pattern {"slug":"kiddiemart-lite/post-header"} /-->
+
+<!-- wp:group {"tagName":"main","align":"full","className":"wp-product-detail","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"bottom":"0"}}},"layout":{"inherit":true,"type":"constrained"}} -->
+<main class="wp-block-group alignfull wp-product-detail" style="margin-top:0px;margin-bottom:0px;padding-bottom:0">
+    <!-- wp:woocommerce/breadcrumbs /-->
+
+    <!-- wp:woocommerce/store-notices /-->
+
+    <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+    <div class="wp-block-group alignwide">
+        <!-- wp:columns {"align":"wide","className":"woo-single-product-column","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
+        <div class="wp-block-columns alignwide woo-single-product-column"><!-- wp:column {"width":"50%"} -->
+            <div class="wp-block-column" style="flex-basis:50%">
+                <!-- wp:woocommerce/product-image-gallery {"className":"has-position-sticky"} /-->
+            </div>
+            <!-- /wp:column -->
+
+            <!-- wp:column {"width":"50%"} -->
+            <div class="wp-block-column" style="flex-basis:50%">
+                <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
+                <div class="wp-block-group">
+                    <!-- wp:post-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"extra-extra-large","__woocommerceNamespace":"woocommerce/product-collection/product-title"} /-->
+
+                    <!-- wp:woocommerce/product-rating {"isDescendentOfSingleProductTemplate":true,"fontSize":"small"} /-->
+
+                    <!-- wp:woocommerce/product-price {"isDescendentOfSingleProductTemplate":true,"textColor":"foreground","fontSize":"large","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} /-->
+
+                    <!-- wp:woocommerce/product-summary {"isDescendentOfSingleProductTemplate":true,"fontSize":"medium","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"}}}} /-->
+
+                    <!-- wp:woocommerce/add-to-cart-form {"quantitySelectorStyle":"stepper"} /-->
+
+                    <!-- wp:woocommerce/product-meta {"metadata":{"ignoredHookedBlocks":["core/post-terms"]}} -->
+                    <div class="wp-block-woocommerce-product-meta">
+                        <!-- wp:group {"className":"product-meta-wrap","style":{"spacing":{"blockGap":"var:preset|spacing|50","padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|30"},"margin":{"top":"var:preset|spacing|60"}},"border":{"top":{"color":"var:preset|color|border-default-color","width":"1px"}}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
+                        <div class="wp-block-group product-meta-wrap"
+                            style="border-top-color:var(--wp--preset--color--border-default-color);border-top-width:1px;margin-top:var(--wp--preset--spacing--60);padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--30)">
+                            <!-- wp:woocommerce/product-sku /-->
+
+                            <!-- wp:post-terms {"term":"product_cat","prefix":"Category: "} /-->
+
+                            <!-- wp:post-terms {"term":"product_tag","prefix":"Tags: "} /-->
+
+                            <!-- wp:post-terms /-->
+                        </div>
+                        <!-- /wp:group -->
+                    </div>
+                    <!-- /wp:woocommerce/product-meta -->
+
+
+                    <!-- wp:pattern {"slug":"kiddiemart-lite/secure-transactions"} /-->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:column -->
+        </div>
+        <!-- /wp:columns -->
+
+        <!-- wp:columns {"align":"wide","className":"pdt-details-col","style":{"spacing":{"margin":{"top":"var:preset|spacing|70"}}}} -->
+        <div class="wp-block-columns alignwide pdt-details-col" style="margin-top:var(--wp--preset--spacing--70)">
+            <!-- wp:column -->
+            <div class="wp-block-column">
+                <!-- wp:woocommerce/product-details {"className":"is-style-minimal has-position-sticky"} -->
+                <div class="wp-block-woocommerce-product-details alignwide is-style-minimal has-position-sticky">
+                    <!-- wp:accordion {"metadata":{"isDescendantOfProductDetails":true},"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+                    <div role="group" class="wp-block-accordion"
+                        style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+                        <!-- wp:accordion-item {"openByDefault":true,"style":{"spacing":{"blockGap":"0"},"border":{"radius":{"topLeft":"16px","topRight":"16px","bottomLeft":"16px","bottomRight":"16px"}}},"backgroundColor":"primary"} -->
+                        <div class="wp-block-accordion-item is-open has-primary-background-color has-background"
+                            style="border-top-left-radius:16px;border-top-right-radius:16px;border-bottom-left-radius:16px;border-bottom-right-radius:16px">
+                            <!-- wp:accordion-heading {"level":3,"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontStyle":"normal","fontWeight":"600"},"border":{"radius":{"topLeft":"16px","topRight":"16px","bottomLeft":"16px","bottomRight":"16px"}}},"textColor":"foreground","fontSize":"normal"} -->
+                            <h3 class="wp-block-accordion-heading has-foreground-color has-text-color has-link-color has-normal-font-size"
+                                style="border-top-left-radius:16px;border-top-right-radius:16px;border-bottom-left-radius:16px;border-bottom-right-radius:16px;font-style:normal;font-weight:600">
+                                <button type="button" class="wp-block-accordion-heading__toggle"
+                                    style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--60)"><span
+                                        class="wp-block-accordion-heading__toggle-title">Description</span><span
+                                        class="wp-block-accordion-heading__toggle-icon"
+                                        aria-hidden="true">+</span></button></h3>
+                            <!-- /wp:accordion-heading -->
+
+                            <!-- wp:accordion-panel {"isSelected":true,"style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|40","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"fontSize":"normal"} -->
+                            <div role="region" class="wp-block-accordion-panel has-normal-font-size"
+                                style="padding-top:0;padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60)">
+                                <!-- wp:woocommerce/product-description {"fontSize":"medium"} /--></div>
+                            <!-- /wp:accordion-panel -->
+                        </div>
+                        <!-- /wp:accordion-item -->
+
+                        <!-- wp:accordion-item {"style":{"spacing":{"blockGap":"0"},"border":{"radius":{"topLeft":"16px","topRight":"16px","bottomLeft":"16px","bottomRight":"16px"}}},"backgroundColor":"primary"} -->
+                        <div class="wp-block-accordion-item has-primary-background-color has-background"
+                            style="border-top-left-radius:16px;border-top-right-radius:16px;border-bottom-left-radius:16px;border-bottom-right-radius:16px">
+                            <!-- wp:accordion-heading {"level":3,"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"foreground","fontSize":"normal"} -->
+                            <h3 class="wp-block-accordion-heading has-foreground-color has-text-color has-link-color has-normal-font-size"
+                                style="font-style:normal;font-weight:600"><button type="button"
+                                    class="wp-block-accordion-heading__toggle"
+                                    style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--60)"><span
+                                        class="wp-block-accordion-heading__toggle-title">Additional
+                                        Information</span><span class="wp-block-accordion-heading__toggle-icon"
+                                        aria-hidden="true">+</span></button></h3>
+                            <!-- /wp:accordion-heading -->
+
+                            <!-- wp:accordion-panel {"style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|40","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"fontSize":"normal"} -->
+                            <div role="region" class="wp-block-accordion-panel has-normal-font-size"
+                                style="padding-top:0;padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--60)">
+                                <!-- wp:woocommerce/product-specifications {"fontSize":"medium"} /--></div>
+                            <!-- /wp:accordion-panel -->
+                        </div>
+                        <!-- /wp:accordion-item -->
+                    </div>
+                    <!-- /wp:accordion -->
+                </div>
+                <!-- /wp:woocommerce/product-details -->
+            </div>
+            <!-- /wp:column -->
+
+            <!-- wp:column -->
+            <div class="wp-block-column">
+                <!-- wp:woocommerce/product-reviews {"className":"has-position-sticky","fontSize":"medium"} -->
+                <div class="wp-block-woocommerce-product-reviews has-position-sticky has-medium-font-size">
+                    <!-- wp:woocommerce/product-reviews-title {"fontSize":"content-heading"} /-->
+
+                    <!-- wp:woocommerce/product-review-template -->
+                    <!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|30"}}}} -->
+                    <div class="wp-block-columns"><!-- wp:column {"width":"60px"} -->
+                        <div class="wp-block-column" style="flex-basis:60px">
+                            <!-- wp:avatar {"size":60,"style":{"border":{"radius":"30px"}}} /-->
+                        </div>
+                        <!-- /wp:column -->
+
+                        <!-- wp:column -->
+                        <div class="wp-block-column">
+                            <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+                            <div class="wp-block-group">
+                                <!-- wp:woocommerce/product-review-author-name {"style":{"typography":{"textDecoration":"none","fontStyle":"normal","fontWeight":"500"}},"fontSize":"small"} /-->
+
+                                <!-- wp:woocommerce/product-review-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|body-text"}}},"typography":{"textDecoration":"none"}},"textColor":"body-text","fontSize":"small"} /-->
+
+                                <!-- wp:woocommerce/product-review-rating {"style":{"elements":{"link":{"color":{"text":"var:preset|color|arrow-wood"}}}},"textColor":"arrow-wood"} /-->
+                            </div>
+                            <!-- /wp:group -->
+
+                            <!-- wp:woocommerce/product-review-content {"fontSize":"medium"} /-->
+                        </div>
+                        <!-- /wp:column -->
+                    </div>
+                    <!-- /wp:columns -->
+                    <!-- /wp:woocommerce/product-review-template -->
+
+                    <!-- wp:woocommerce/product-reviews-pagination -->
+                    <!-- wp:woocommerce/product-reviews-pagination-previous /-->
+
+                    <!-- wp:woocommerce/product-reviews-pagination-numbers /-->
+
+                    <!-- wp:woocommerce/product-reviews-pagination-next /-->
+                    <!-- /wp:woocommerce/product-reviews-pagination -->
+
+                    <!-- wp:woocommerce/product-review-form /-->
+                </div>
+                <!-- /wp:woocommerce/product-reviews -->
+            </div>
+            <!-- /wp:column -->
+        </div>
+        <!-- /wp:columns -->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:spacer {"height":"41px"} -->
+    <div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+
+    <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
+    <div class="wp-block-group alignfull has-primary-background-color has-background"
+        style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+        <!-- wp:heading {"align":"wide","style":{"spacing":{"margin":{"bottom":"1rem"}}},"fontSize":"large"} -->
+        <h2 class="wp-block-heading alignwide has-large-font-size" style="margin-bottom:1rem">Related Products</h2>
+        <!-- /wp:heading -->
+
+        <!-- wp:woocommerce/product-collection {"queryId":3,"query":{"perPage":4,"pages":1,"offset":0,"postType":"product","order":"asc","orderBy":"title","search":"","exclude":[],"inherit":false,"taxQuery":[],"isProductCollectionBlock":true,"featured":false,"woocommerceOnSale":false,"woocommerceStockStatus":["instock","onbackorder"],"woocommerceAttributes":[],"woocommerceHandPickedProducts":[],"filterable":false,"relatedBy":{"categories":true,"tags":true}},"tagName":"div","displayLayout":{"type":"flex","columns":4,"shrinkColumns":true},"dimensions":{"widthType":"fill"},"collection":"woocommerce/product-collection/related","hideControls":["inherit"],"queryContextIncludes":["collection"],"__privatePreviewState":{"isPreview":true,"previewMessage":"Actual products will vary depending on the product being viewed."},"align":"wide","className":"shop-archive"} -->
+        <div class="wp-block-woocommerce-product-collection alignwide shop-archive">
+            <!-- wp:woocommerce/product-template -->
+            <!-- wp:template-part {"slug":"product-collection"} /-->
+            <!-- /wp:woocommerce/product-template -->
+        </div>
+        <!-- /wp:woocommerce/product-collection -->
+    </div>
+    <!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+
+<!-- wp:template-part {"slug":"footer-with-three-columns","tagName":"footer"} /-->
